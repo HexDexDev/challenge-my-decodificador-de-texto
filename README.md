@@ -2,9 +2,15 @@
 
 Este é um projeto de decodificador de texto desenvolvido como parte do programa Oracle Next Education (ONE). O decodificador permite a criptografia e descriptografia de mensagens de acordo com uma chave de substituição específica. O objetivo principal é fornecer uma ferramenta simples que criptografa texto de maneira personalizada e permite a decodificação do texto criptografado de volta à sua forma original.
 
+## Links do projeto funcionando:
+- [Ver Projeto no Github Pages](https://hexdexdev.github.io/challenge-my-decodificador-de-texto/)
+- [Ver Projeto na Vercel](https://challenge-five-rho.vercel.app)
+
+
+## Vídeo demonstração:
 [![Demonstração do Projeto](https://img.youtube.com/vi/2D7RIzMQF3M/0.jpg)](https://youtu.be/2D7RIzMQF3M?feature=shared)
 
-
+Screenshot navegador Computador:
 
 ![Screenshot acesso do app pelo computador](./images/Screenshot%202024-08-13%20at%2013-46-39%20Decodificador%20de%20Texto.png)
 
@@ -28,12 +34,16 @@ Este é um projeto de decodificador de texto desenvolvido como parte do programa
 
 ## Desafios do projeto
 
-Consegui trabalhar a responsabilidade do projeto no computador, garantindo que a aplicação se dimensione corretamente ao reduzir ou aumentar o navegador. O layout se adapta bem a diferentes tamanhos de tela, oferecendo uma experiência de uso consistente em monitores e laptops. 
+Consegui trabalhar a responsividade do projeto no computador, garantindo que a aplicação se dimensione corretamente ao reduzir ou aumentar o navegador. O layout se adapta bem a diferentes tamanhos de tela, oferecendo uma experiência de uso consistente em monitores e laptops. 
 
+Imagem do app reduzido ao máximo na janela do navegador no computador:
 ![Modo tela reduzida no navegador via Computador](./images/modoreduzido-responsivo-computador.png)
 
 
 Note, porém, que o app ainda não está 100% responsivo, pois ao utilizar a função de visualização em dispositivos móveis, como iPhone 12 ou Samsung, a responsividade ainda apresenta algumas limitações e não está completamente otimizada para essas plataformas.
+
+Imagem do projeto no celular pelo Chrome Tools:
+
 ![no celular](./images/celular.png)
 
 Ao longo do desenvolvimento deste projeto, enfrentei uma série de desafios que testaram minhas habilidades e minha persistência. Um dos maiores obstáculos foi a utilização da função Flexbox. Tive bastante dificuldade para entender e aplicar o Flexbox de maneira eficaz. Foi necessário realizar muitas pesquisas e experimentar diversas abordagens até que o sistema finalmente funcionasse da forma esperada. Embora o código pareça estar funcional e sem erros, acredito que posso ter incluído alguma redundância, pois a questão do Flexbox ainda é algo que preciso praticar muito mais. Flexbox é um assunto complexo e confuso de entender, devido às inúmeras variáveis envolvidas.
@@ -53,5 +63,5 @@ Pretendo continuar aperfeiçoando o projeto à medida que o meu conhecimento em 
 
 - **Tornar o segredo de criptografia mais complexo:** Ampliar a complexidade do algoritmo de criptografia, incluindo todas as letras do alfabeto, símbolos, letras maiúsculas e minúsculas, números, entre outros, para criar uma criptografia mais robusta e segura.
 
-- **Criar uma função para exportar o texto criptografado:** Implementar uma funcionalidade que permita ao usuário exportar o texto criptografado, possibilitando o download do conteúdo em formatos como .txt ou .md, para uso posterior ou compartilhamento seguro.
+- **Criar uma função para exportar o texto criptografado:** Implementar uma funcionalidade que permita ao usuário exportar o texto criptografado, possibilitando o download do conteúdo em formatos como .txt ou .md, para uso posterior ou compartilhamento ou armazenamento.
 
