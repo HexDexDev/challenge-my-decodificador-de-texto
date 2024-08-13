@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icons8-encryption-64.png" type="image/gif">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="logo">
+        <a href="index.html">
+        <img src="./images/encrypt.gif" alt="imagem de um cadeado abrindo e fechando fazendo alusão a um Codificador/Decodificador de texto" width="90" height="90"></a>
+    </div>
+    <div class="mensagem">
+        <h1>Meu Codificador e Decodificador</h1>
+        <form>
+        <label for="mensagem"></label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite o texto que deseja codificar ou decodificar..."></textarea>
+        </form>
+        <p class="advertencia">🚨 Apenas letras minúsculas e sem acento são codificadas.</p>
+        <section id="botoesdosite">
+        <button id="botaocriptografar" class="botoes" type="button">CRIPTOGRAFAR</button>
+        <button id="botaodescriptografar" class="botoes" type="button">DESCRIPTOGRAFAR</button>
+        </section>
+    </div>
+    <div id="ladodois">
+    <img class="imagem" src="images/padlock-157620_640.png" alt="Mensagem de alerta que nenhuma mensagem foi encontrada com instrução para digitar o texto que deseja criptografar ou descriptografar" width="200" height="auto">
+    <p class="titulonota1">Nenhuma mensagem encontrada</p>
+    <p class="titulonota2">Digite o texto que deseja criptografar ou descriptografar.</p>
+    </div>
+    <div id="ladoResultado">
+    <section id="container2">
+    <textarea id="resultado" disabled>teste</textarea>
+    <button id="copiar" onclick="myFunction()">COPIAR</button>
+    </section>
+    </div>
+    <script src="app.js"></script>
+<footer>
+    <p>Decodificador de texto produzido por Henrique, aluno do Oracle Next Education (ONE) by Alura</p>
+</footer>
+</body>
+</html>
